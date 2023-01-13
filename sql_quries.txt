@@ -6,8 +6,8 @@ CREATE TABLE feedback (
     firstname VARCHAR(50)  , 
     lastname VARCHAR(50)   , 
     email VARCHAR(70)   , 
-    phone VARCHAR(12)   , `
-     message VARCHAR(600)   ,
-     PRIMARY KEY (`id`), UNIQUE (`phone`));
+    phone VARCHAR(12)   ,
+    message VARCHAR(600)   ,
+    PRIMARY KEY (`id`), UNIQUE (`phone`));
 
 INSERT INTO feedback VALUES (1,'waseem','ashraf','waseemashraf.99@gmail.com','9645251726','My first message');
