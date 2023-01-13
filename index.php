@@ -95,35 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     <h3>Reach out to me</h3>
     <p><a href="contactus.php?email=<?php $email ?>">Contact Us ;)</a></p>
-    <form action="" id="feedback" method="post">
-        <table>
-            <tr>
-                <td>First name</td>
-                <td><input type="text" name ="fname"></td>
-            </tr>
-            <tr>
-                <td>Last name</td>
-                <td><input type="text" name="lname"></td>
-            </tr>
-            <tr>
-                <td>Email</td>
-                <td><input type="text" name="email"></td>
-            </tr>
-            <tr>
-                <td>Phone</td>
-                <td><input type="text" name="phone"></td>
-            </tr>
-            <tr>
-                <td>
-                    <!-- <input type="hidden" name="id" value="<?php echo $id; ?>" /> -->
-                    <h3> <input type="submit" value="submit"></h3>
-                </td>
-
-            </tr>
-        </table>
-    </form>
-    <textarea rows="4" cols="50" name="user_message" form="feedback">
-    Enter your message here</textarea>
+    
 
 </body>
 </html>
