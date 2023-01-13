@@ -9,7 +9,6 @@ $fname = "" ;
 $lname = "" ;
 $email = "" ;
 $phone = "" ;
-$user_message = "";
 
 $error_message = "";
 
