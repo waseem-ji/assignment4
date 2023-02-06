@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "waseemji4217";
+$password = "root";
 $database = "mytestdatabase";
 
 $conn = new mysqli($servername,$username,$password,$database);
@@ -63,5 +63,7 @@ $user_message = $row['message'];
             <td><?php echo $user_message?></td>
         </tr>
     </table>
+    <p><a href="/">Go back to main page</a></p>
+    <p><a href="/contactus.php"> Send another feed back</a></p>
 </body>
 </html>

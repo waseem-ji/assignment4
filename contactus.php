@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = "waseemji4217";
+$password = "root";
 $database = "mytestdatabase";
 
 $conn = new mysqli($servername,$username,$password,$database);
@@ -64,7 +64,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         // Move back to begining of file , But Y?
         fseek($file,0);
-        header("location: /assignment3/success.php?phone=" . $phone);
+        header("location: success.php?phone=" . $phone);
 
     } while(false);
 }
@@ -109,5 +109,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </table>
     </form>
     <textarea rows="4" cols="50" name="user_message" form="feedback"></textarea><br>
+
+    <div>
+        <p><a href="/">Go back to main page</a></p>
+    </div>
 </body>
 </html>
